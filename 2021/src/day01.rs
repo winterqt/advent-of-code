@@ -35,7 +35,7 @@ impl Day for Day01 {
         let mut last = 0;
 
         for window in input.windows(3) {
-            let sum = window[0] + window[1] + window[2];
+            let sum = window.iter().sum();
 
             if last != 0 && sum > last {
                 answer += 1;

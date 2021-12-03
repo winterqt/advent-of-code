@@ -60,13 +60,7 @@ impl Day for Day09 {
                 // quack
                 let slice = &input[i..j];
 
-                let mut sum = 0;
-
-                for x in slice {
-                    sum += x;
-                }
-
-                if sum == p1 {
+                if slice.iter().sum::<u64>() == p1 {
                     let mut slice = slice.to_vec();
                     slice.sort_unstable();
 
