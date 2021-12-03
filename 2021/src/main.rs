@@ -1,3 +1,1 @@
-mod day01;
-
-aoc_shared::main!(day01::Day01,);
+include!(concat!(env!("OUT_DIR"), "/main.rs"));

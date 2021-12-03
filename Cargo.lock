@@ -6,6 +6,7 @@ version = 3
 name = "aoc-2020"
 version = "0.1.0"
 dependencies = [
+ "aoc_build",
  "aoc_shared",
 ]
 
@@ -13,8 +14,13 @@ dependencies = [
 name = "aoc-2021"
 version = "0.1.0"
 dependencies = [
+ "aoc_build",
  "aoc_shared",
 ]
+
+[[package]]
+name = "aoc_build"
+version = "0.1.0"
 
 [[package]]
 name = "aoc_shared"

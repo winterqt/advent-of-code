@@ -1,2 +1,2 @@
 [workspace]
-members = ["shared", "2020", "2021"]
+members = ["build", "shared", "2020", "2021"]
