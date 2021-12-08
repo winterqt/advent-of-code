@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 aoc_shared = { path = "../shared" }
+itertools = "0.10.3"
 
 [build-dependencies]
 aoc_build = { path = "../build" }
