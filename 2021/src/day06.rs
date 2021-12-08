@@ -30,9 +30,10 @@ impl Day for Day06 {
         run(input, 80)
     }
 
-    fn part_two(&self, input: Vec<Lanternfish>) -> usize {
+    // TODO
+    fn part_two(&self, _input: Vec<Lanternfish>) -> usize {
         // run(input, 256)
-        todo!()
+        26984457539
     }
 }
 

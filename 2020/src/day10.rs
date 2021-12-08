@@ -34,8 +34,9 @@ impl Day for Day10 {
         differences.get(&3).unwrap() * differences.get(&1).unwrap()
     }
 
-    fn part_two(&self, input: Vec<u16>) -> u16 {
-        todo!();
+    // TODO
+    fn part_two(&self, _input: Vec<u16>) -> u16 {
+        0
     }
 }
 
