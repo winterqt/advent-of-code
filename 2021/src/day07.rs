@@ -25,8 +25,7 @@ impl Day for Day07 {
         (0..=*input.last().unwrap())
             .into_iter()
             .map(|x| input.iter().map(|n| range(*n, x).len()).sum::<usize>())
-            .sorted_by(|a, b| Ord::cmp(a, b))
-            .next()
+            .min()
             .unwrap()
     }
 
@@ -45,8 +44,7 @@ impl Day for Day07 {
                     })
                     .sum::<usize>()
             })
-            .sorted_by(|a, b| Ord::cmp(a, b))
-            .next()
+            .min()
             .unwrap()
     }
 }
